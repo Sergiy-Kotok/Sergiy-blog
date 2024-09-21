@@ -1,12 +1,20 @@
 p {
-    color: red;
+    color: rgb(94, 92, 95);
     font-size: 18px;
 }
 h3 {
-    color: blue;
+    color: rgb(105, 105, 112);
     font-size: 25px;
 }
 .p {
-    color: bisque;
+    color: rgb(225, 117, 22);
+    font-size: 18;
+}
+.h {
+    color:black;
+    font: size 22px;
+}
+a {
+    color: rgb(106, 29, 29);
     font-size: 18;
 }
