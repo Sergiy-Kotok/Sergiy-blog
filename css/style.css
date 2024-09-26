@@ -8,24 +8,32 @@ h3 {
 }
 .t {
     color: rgb(225, 117, 22);
-    font-size: 18;
+    font-size: 18px;
 }
 .h {
     color:rgb(213, 129, 129);
     font: size 22px;
 }
 a {
-    color: rgb(0, 0, 0);
-    font-size: 18;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 }
 .d {
     color: rgb(255, 0, 0);
-    font-size: 20;
+    font-size: 20px;
 }
 h1 {
     color: aqua;
-    font-size: 20;
+    font-size: 20px;
 }
 body {
     background: #262626;
+}
+li {
+    color: antiquewhite;
+    font-size: 18px;
+}
+.a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 }
