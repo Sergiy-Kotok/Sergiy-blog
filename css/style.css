@@ -38,16 +38,13 @@ li {
     font-size: 18px;
 }
 header {
-    background: #4d4d4d;
-    
+    background: #000000;
+    font-size: 18%;
 }
 .a1 {
-    color: #fffefe;
+    color: #848484;
     font-size: 20px; 
 }
-.li {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
+
 
 
