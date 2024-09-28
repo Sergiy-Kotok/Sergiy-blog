@@ -30,10 +30,23 @@ body {
     background: #262626;
 }
 li {
-    color: antiquewhite;
+    color: aqua;
     font-size: 18px;
 }
 .a {
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
+header {
+    background: #000000;
+    
+}
+.a1 {
+    color: #fffefe;
+    font-size: 25px; 
+}
+.li {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
