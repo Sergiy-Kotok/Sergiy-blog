@@ -19,7 +19,7 @@ a {
     font-size: 18px;
 }
 .d {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 h1 {
@@ -39,12 +39,32 @@ li {
 }
 header {
     background: #000000;
-    font-size: 18%;
+    font-size: 23%;
 }
 .a1 {
-    color: #848484;
-    font-size: 20px; 
+    color: #000000;
+    background: #ffffff93;
+    transition: all 0.5s ease;
+}
+button {
+    color: #000000;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #000000;
+    transition: all 0.5s ease;
 }
 
+button:active {
+    transform: scale(0.96);
+}
 
+button:hover {
+    background-color: rgb(255, 166, 0);
+}
+.a1:active {
+    transform: scale(0.96);
+}
+.a1:hover {
+    background-color: rgb(255, 166, 0);
+}
 
