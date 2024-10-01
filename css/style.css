@@ -7,11 +7,11 @@ h3 {
     font-size: 25px;
 }
 .t {
-    color: rgb(225, 117, 22);
-    font-size: 18px;
+    color: rgb(225, 22, 22);
+    font-size: 25px;
 }
 .h {
-    color:rgb(213, 129, 129);
+    color:rgb(156, 153, 153);
     font: size 22px;
 }
 a {
@@ -43,8 +43,12 @@ header {
 }
 .a1 {
     color: #000000;
-    background: #ffffff93;
+    background: #848383fa;
     transition: all 0.5s ease;
+}
+i {
+    color: rgb(87, 78, 31);
+    font-size: 30px;
 }
 button {
     color: #000000;
@@ -59,12 +63,12 @@ button:active {
 }
 
 button:hover {
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(0, 113, 251);
 }
 .a1:active {
     transform: scale(0.96);
 }
 .a1:hover {
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(255, 250, 250);
 }
 
