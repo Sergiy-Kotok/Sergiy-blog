@@ -23,14 +23,14 @@ a {
     font-size: 20px;
 }
 h1 {
-    color: aqua;
+    color: rgb(222, 0, 0);
     font-size: 20px;
 }
 body {
     background: #262626;
 }
 li {
-    color: aqua;
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 .a {
