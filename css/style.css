@@ -7,7 +7,7 @@ h3 {
     font-size: 25px;
 }
 .t {
-    color: rgb(225, 22, 22);
+    color: rgb(225, 137, 22);
     font-size: 25px;
 }
 .h {
@@ -23,7 +23,7 @@ a {
     font-size: 20px;
 }
 h1 {
-    color: rgb(222, 0, 0);
+    color: rgb(222, 100, 0);
     font-size: 20px;
 }
 body {
@@ -70,5 +70,14 @@ button:hover {
 }
 .a1:hover {
     background-color: rgb(255, 250, 250);
+}
+body {
+
+font-size: 16px;
+}
+.font-texst {
+    font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
