@@ -17,7 +17,7 @@ h3 {
     font: size 22px;
 }
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(238, 198, 21);
     font-size: 18px;
 }
 .d {
@@ -37,10 +37,12 @@ li {
     color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
+    list-style: none;
 }
 .a {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     font-size: 18px;
+    display: flex;
 }
 header {
     background: #000000;
@@ -61,12 +63,17 @@ button {
     border-radius: 6px;
     background: #000000;
     transition: all 0.9s ease;
-}
-button:active {
+    text-align:center ;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    &:active {
     transform: scale(0.96);
-}
-button:hover {
-    background-color: rgb(0, 113, 251);
+    }
+    &:hover {
+        background-color: rgb(0, 113, 251);
+    } 
 }
 .a1:active {
     transform: scale(0.96);
@@ -83,4 +90,22 @@ font-size: 16px;
         font-weight: 400;
         font-style: normal;
 }
+img {
+    color: rgb(0, 0, 0);
+    border-style:solid;
+    border-width: 0.5px;
+    padding: 3px;
+    border-radius: 20px;
+    &:active {
+            transform: scale(0.96);
+        }
+    
+        &:hover {
+            background-color: rgb(241, 241, 241);
+        }
+}
+input {
+    font-size: 14px;
+}
+
 
