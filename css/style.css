@@ -17,12 +17,13 @@ h3 {
     font: size 22px;
 }
 a {
-    color: rgb(238, 198, 21);
+    color: rgb(238, 230, 0);
     font-size: 18px;
 }
 .d {
     color: rgb(255, 255, 255);
     font-size: 20px;
+    text-align: left;
 }
 h1 {
     color: rgb(255, 253, 253);
@@ -39,11 +40,6 @@ li {
     text-align: center;
     list-style: none;
 }
-.a {
-    color: rgb(255, 0, 0);
-    font-size: 18px;
-    display: flex;
-}
 header {
     background: #000000;
     font-size: 23%;
@@ -58,7 +54,6 @@ i {
     font-size: 30px;
 }
 button {
-    color: #000000;
     padding: 8px 22px;
     border-radius: 6px;
     background: #000000;
