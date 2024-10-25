@@ -1,3 +1,4 @@
+
 p {
     color: rgb(203, 201, 47);
     font-size: 18px;
@@ -14,7 +15,6 @@ h3 {
 }
 .h {
     color:rgb(156, 153, 153);
-    font: size 22px;
 }
 a {
     color: rgb(238, 230, 0);
@@ -35,7 +35,7 @@ body {
     background: #262626;
 }
 li {
-    color: rgb(0, 0, 0);
+    color: rgb(238, 0, 0);
     font-size: 20px;
     text-align: center;
     list-style: none;
