@@ -39,6 +39,7 @@ li {
     font-size: 20px;
     text-align: center;
     list-style: none;
+    margin-bottom: 10px;
 }
 header {
     background: #000000;
