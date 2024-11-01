@@ -32,6 +32,7 @@ h1 {
     line-height: 3cap;
 }
 body {
+    width: 1700px;
     background: #262626;
 }
 li {
@@ -55,15 +56,15 @@ i {
     font-size: 30px;
 }
 button {
-    padding: 8px 22px;
+    padding: 8px 15px;
     border-radius: 6px;
     background: #000000;
     transition: all 0.9s ease;
-    text-align:center ;
-    padding: 10px;
+    text-align:center;
+    padding: 5px;
     border-style: solid;
     border-width: 5px;
-    border-radius: 50px;
+    border-radius: 40px;
     &:active {
     transform: scale(0.96);
     }
@@ -90,7 +91,8 @@ img {
     color: rgb(0, 0, 0);
     border-style:solid;
     border-width: 0.5px;
-    padding: 3px;
+    background-color: #000000;
+    padding: 5px;
     border-radius: 20px;
     &:active {
             transform: scale(0.96);
