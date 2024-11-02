@@ -1,11 +1,25 @@
 
+.container {
+    width: 1200px;
+    border: 3px solid rgb(222, 148, 0);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    margin-right: auto;
+    margin-left: auto;
+}
+.h1 {
+    width: 1700px;
+    background-color: #c50707;
+
+}
 p {
     color: rgb(203, 201, 47);
     font-size: 18px;
     text-align: center;
 }
 h3 {
-    color: rgb(255, 255, 255);
+    color: rgb(248, 22, 22);
     font-size: 25px;
     text-align: center;
 }
@@ -17,8 +31,23 @@ h3 {
     color:rgb(156, 153, 153);
 }
 a {
-    color: rgb(238, 230, 0);
+    color: rgb(10, 9, 4);
     font-size: 18px;
+    width: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px 10px;
+    border-radius: 30px;
+    background: rgb(238, 230, 0);
+    transition: all 0.9s ease;
+    text-align: center;  
+    border-style: solid;
+    &:active {
+    transform: scale(0.96);
+    }
+    &:hover {
+    background-color: rgb(0, 113, 251);
+    }
 }
 .d {
     color: rgb(255, 255, 255);
@@ -26,7 +55,7 @@ a {
     text-align: left;
 }
 h1 {
-    color: rgb(255, 253, 253);
+    color: rgb(231, 28, 28);
     font-size: 20px;
     text-align: center;
     line-height: 3cap;
@@ -39,8 +68,8 @@ li {
     color: rgb(238, 0, 0);
     font-size: 20px;
     text-align: center;
-    list-style: none;
-    margin-bottom: 10px;
+    list-style:none;
+    border-radius: 20px;
 }
 header {
     background: #000000;
@@ -56,21 +85,7 @@ i {
     font-size: 30px;
 }
 button {
-    padding: 8px 15px;
-    border-radius: 6px;
-    background: #000000;
-    transition: all 0.9s ease;
-    text-align:center;
-    padding: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 40px;
-    &:active {
-    transform: scale(0.96);
-    }
-    &:hover {
-        background-color: rgb(0, 113, 251);
-    } 
+   
 }
 .a1:active {
     transform: scale(0.96);
@@ -99,11 +114,8 @@ img {
         }
     
         &:hover {
-            background-color: rgb(241, 241, 241);
+            background-color: rgb(248, 194, 18);
         }
-}
-input {
-    font-size: 14px;
 }
 
 
