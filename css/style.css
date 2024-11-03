@@ -2,16 +2,21 @@
 .container {
     width: 1200px;
     border: 3px solid rgb(222, 148, 0);
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 40px;
+    padding: 50px;
     background-color: rgb(0, 0, 0);
     margin-right: auto;
     margin-left: auto;
 }
 .h1 {
     width: 1700px;
-    background-color: #c50707;
-
+    background-color: #c59607;
+    &:active {
+    transform: scale(0.96);
+    }
+    &:hover {
+    background-color: rgb(0, 113, 251);
+    }
 }
 p {
     color: rgb(203, 201, 47);
@@ -33,9 +38,9 @@ h3 {
 a {
     color: rgb(10, 9, 4);
     font-size: 18px;
-    width: 1px;
-    margin-right: 10px;
-    margin-left: 10px;
+    width: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 8px 10px;
     border-radius: 30px;
     background: rgb(238, 230, 0);
@@ -50,9 +55,10 @@ a {
     }
 }
 .d {
-    color: rgb(255, 255, 255);
+    color: rgb(241, 153, 11);
     font-size: 20px;
     text-align: left;
+    background-color: black;
 }
 h1 {
     color: rgb(231, 28, 28);
@@ -70,6 +76,7 @@ li {
     text-align: center;
     list-style:none;
     border-radius: 20px;
+    padding: 10px;
 }
 header {
     background: #000000;
@@ -79,13 +86,13 @@ header {
     color: #000000;
     background: #848383fa;
     transition: all 0.5s ease;
+    background-color: rgb(121, 121, 121);
+    padding: 7px;
+    border-radius: 10px;
 }
 i {
     color: rgb(87, 78, 31);
     font-size: 30px;
-}
-button {
-   
 }
 .a1:active {
     transform: scale(0.96);
@@ -94,13 +101,12 @@ button {
     background-color: rgb(255, 250, 250);
 }
 body {
-
-font-size: 16px;
+    font-size: 16px;
 }
 .font-texst {
     font-family: "IBM Plex Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 img {
     color: rgb(0, 0, 0);
@@ -110,12 +116,11 @@ img {
     padding: 5px;
     border-radius: 20px;
     &:active {
-            transform: scale(0.96);
-        }
-    
-        &:hover {
-            background-color: rgb(248, 194, 18);
-        }
+    transform: scale(0.96);
+    } 
+    &:hover {
+    background-color: rgb(248, 194, 18);
+    }
 }
 
 
