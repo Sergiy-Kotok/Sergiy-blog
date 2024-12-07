@@ -44,7 +44,7 @@ h3 {
 a {
     color: rgb(248, 194, 18);
     font-size: 18px;
-    padding: 8px 5px;
+    padding: 10px 7px;
     border-radius: 20px;
     background: rgb(0, 0, 0);
     transition: all 0.9s ease;
@@ -137,6 +137,20 @@ img {
     &:hover {
     background-color: rgb(248, 194, 18);
     }
+}
+.artist-favorite {
+    display: flex;
+    flex-direction: flex end;
+    justify-content: flex baseline;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.artist-favorite {
+    flex-basis: calc((100% - (2 * 30px)) / 3);
+    border: 3px solid goldenrod;
+    border-radius: 1%;
+    padding: 0px;
 }
 
 
