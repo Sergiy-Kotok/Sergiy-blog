@@ -79,7 +79,7 @@ h1 {
 
 body {
     width: 1700px;
-    background: #262626;
+    background-color: #202020;
 }
 
 li {
@@ -152,6 +152,7 @@ img {
     border-radius: 1%;
     padding: 0px;
 }
+
 
 
 
